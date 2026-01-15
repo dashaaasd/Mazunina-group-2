@@ -2,8 +2,8 @@
   "model_info": {
     "model_name": "Stacking",
     "model_type": "StackingClassifier",
-    "saved_at": "2026-01-15T17:08:37.369022",
-    "best_roc_auc": 0.9253307066918816,
+    "saved_at": "2026-01-15T19:05:48.432058",
+    "best_roc_auc": 0.9273245050269531,
     "best_params": {},
     "feature_names": [
       "f01",
@@ -47,21 +47,21 @@
     "feature_count": 37
   },
   "test_metrics": {
-    "Accuracy": 0.9044444444444445,
-    "Precision": 0.8716049382716049,
-    "Recall": 0.7463002114164905,
-    "F1-score": 0.8041002277904328,
-    "ROC-AUC": 0.9253307066918816
+    "Accuracy": 0.9038888888888889,
+    "Precision": 0.8621523579201935,
+    "Recall": 0.7544973544973544,
+    "F1-score": 0.8047404063205418,
+    "ROC-AUC": 0.9273245050269531
   },
   "performance_summary": {
     "best_metric": "ROC-AUC",
-    "best_value": 0.9253307066918816,
+    "best_value": 0.9273245050269531,
     "comparison_baseline": 0.5,
-    "improvement_over_random": "85.1%",
+    "improvement_over_random": "85.5%",
     "is_better_than_random": true
   },
   "data_info": {
-    "n_samples_train": 10800,
+    "n_samples_train": 14400,
     "n_features": 37,
     "n_samples_val": 3600
   }
