@@ -2,52 +2,52 @@
   "metadata": {
     "total_models": 6,
     "best_model": "Stacking",
-    "best_roc_auc": 0.9253307066918816
+    "best_roc_auc": 0.9273245050269531
   },
   "models_metrics": [
     {
       "Model": "Stacking",
-      "Accuracy": 0.9044444444444445,
-      "Precision": 0.8716049382716049,
-      "Recall": 0.7463002114164905,
-      "F1-score": 0.8041002277904328,
-      "ROC-AUC": 0.9253307066918816
-    },
-    {
-      "Model": "GradientBoosting",
-      "Accuracy": 0.8927777777777778,
-      "Precision": 0.8703703703703703,
-      "Recall": 0.6955602536997886,
-      "F1-score": 0.7732079905992949,
-      "ROC-AUC": 0.9237152106756565
+      "Accuracy": 0.9038888888888889,
+      "Precision": 0.8621523579201935,
+      "Recall": 0.7544973544973544,
+      "F1-score": 0.8047404063205418,
+      "ROC-AUC": 0.9273245050269531
     },
     {
       "Model": "RandomForest",
-      "Accuracy": 0.8838888888888888,
-      "Precision": 0.9125,
-      "Recall": 0.6173361522198731,
-      "F1-score": 0.7364438839848676,
-      "ROC-AUC": 0.9207140364936408
+      "Accuracy": 0.8902777777777777,
+      "Precision": 0.9129129129129129,
+      "Recall": 0.6433862433862434,
+      "F1-score": 0.7548106765983861,
+      "ROC-AUC": 0.9260977092238862
+    },
+    {
+      "Model": "GradientBoosting",
+      "Accuracy": 0.8972222222222223,
+      "Precision": 0.8777923784494087,
+      "Recall": 0.7068783068783069,
+      "F1-score": 0.7831184056271981,
+      "ROC-AUC": 0.9220661824051655
     },
     {
       "Model": "DecisionTree",
-      "Accuracy": 0.8311111111111111,
-      "Precision": 0.7133838383838383,
-      "Recall": 0.5972515856236786,
-      "F1-score": 0.6501726121979287,
-      "ROC-AUC": 0.828145039359792
+      "Accuracy": 0.8336111111111111,
+      "Precision": 0.7235142118863049,
+      "Recall": 0.5925925925925926,
+      "F1-score": 0.6515415939499709,
+      "ROC-AUC": 0.8373517073705398
     },
     {
       "Model": "LogisticRegression",
-      "Accuracy": 0.8211111111111111,
-      "Precision": 0.75,
-      "Recall": 0.4788583509513742,
-      "F1-score": 0.584516129032258,
-      "ROC-AUC": 0.8162899034685369
+      "Accuracy": 0.8119444444444445,
+      "Precision": 0.7248322147651006,
+      "Recall": 0.45714285714285713,
+      "F1-score": 0.5606748864373783,
+      "ROC-AUC": 0.7976671748423161
     },
     {
       "Model": "Dummy Baseline",
-      "Accuracy": 0.7372222222222222,
+      "Accuracy": 0.7375,
       "Precision": 0.0,
       "Recall": 0.0,
       "F1-score": 0.0,

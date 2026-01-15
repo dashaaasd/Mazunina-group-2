@@ -1,0 +1,56 @@
+{
+  "DecisionTree": {
+    "best_params": {
+      "dt__ccp_alpha": 0.0,
+      "dt__max_depth": 10,
+      "dt__min_samples_leaf": 20,
+      "dt__min_samples_split": 2
+    },
+    "best_score": 0.8333456973369888,
+    "scoring": "roc_auc",
+    "cv_splits": 5,
+    "n_candidates": 360,
+    "best_model_type": "Pipeline",
+    "search_method": "GridSearchCV"
+  },
+  "RandomForest": {
+    "best_params": {
+      "rf__bootstrap": true,
+      "rf__max_depth": null,
+      "rf__max_features": "sqrt",
+      "rf__min_samples_leaf": 1,
+      "rf__n_estimators": 100
+    },
+    "best_score": 0.9264657724719004,
+    "scoring": "roc_auc",
+    "cv_splits": 5,
+    "n_candidates": 12,
+    "best_model_type": "Pipeline",
+    "search_method": "GridSearchCV"
+  },
+  "GradientBoosting": {
+    "best_params": {
+      "gb__learning_rate": 0.1,
+      "gb__max_depth": 5,
+      "gb__min_samples_leaf": 1,
+      "gb__min_samples_split": 5,
+      "gb__n_estimators": 100,
+      "gb__subsample": 0.8
+    },
+    "best_score": 0.9247476270320802,
+    "scoring": "roc_auc",
+    "cv_splits": 5,
+    "n_candidates": 8,
+    "best_model_type": "Pipeline",
+    "search_method": "GridSearchCV"
+  },
+  "metadata": {
+    "total_searches": 3,
+    "models_with_search": [
+      "DecisionTree",
+      "GradientBoosting",
+      "RandomForest"
+    ],
+    "created_at": "2026-01-15T19:05:42.344403"
+  }
+}
