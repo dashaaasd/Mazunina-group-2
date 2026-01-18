@@ -2,7 +2,7 @@
   "model_info": {
     "model_name": "Stacking",
     "model_type": "StackingClassifier",
-    "saved_at": "2026-01-15T19:05:48.432058",
+    "saved_at": "2026-01-18T16:05:03.264917",
     "best_roc_auc": 0.9273245050269531,
     "best_params": {},
     "feature_names": [
