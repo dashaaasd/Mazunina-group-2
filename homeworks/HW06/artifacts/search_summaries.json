@@ -47,10 +47,10 @@
   "metadata": {
     "total_searches": 3,
     "models_with_search": [
-      "DecisionTree",
+      "RandomForest",
       "GradientBoosting",
-      "RandomForest"
+      "DecisionTree"
     ],
-    "created_at": "2026-01-21T14:44:52.161908"
+    "created_at": "2026-01-24T14:07:08.778258"
   }
 }
