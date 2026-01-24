@@ -1,4 +1,4 @@
-Model,accuracy,Precision,Recall,f1,ROC-AUC
+model,accuracy,Precision,Recall,f1,ROC-AUC
 Stacking,0.9039,0.8622,0.7545,0.8047,0.9273
 RandomForest,0.8903,0.9129,0.6434,0.7548,0.9261
 GradientBoosting,0.8972,0.8778,0.7069,0.7831,0.9221
