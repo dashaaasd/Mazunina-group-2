@@ -1,0 +1,21 @@
+{
+    "dataset": "STL10",
+    "model": "ResNet18_finetune",
+    "pretrained": true,
+    "transforms": {
+        "train": "RandomHorizontalFlip, RandomRotation(15), ColorJitter, Resize(224), Normalize(ImageNet)",
+        "val": "Resize(224), Normalize(ImageNet)"
+    },
+    "optimizer": "Adam",
+    "optimizer_params": {
+        "lr": {
+            "layer4": 0.0001,
+            "fc": 0.001
+        },
+        "weight_decay": 0.0001
+    },
+    "epochs": 25,
+    "best_val_accuracy": 0.938,
+    "seed": 42,
+    "device": "cuda"
+}

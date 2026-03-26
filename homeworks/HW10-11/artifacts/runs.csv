@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,STL10,42,SimpleCNN_5112650params,Adam,0.001,25.0,0.628,,,,,No augmentations
+C2,classification,STL10,42,SimpleCNN_5112650params,Adam,0.001,25.0,0.637,,,,,"With augmentations (HorizontalFlip, Rotation, ColorJitter)"
+C3,classification,STL10,42,ResNet18_head_only_5130trainable_params,Adam,0.001,25.0,0.908,,,,,"Pretrained ResNet18, frozen backbone, only fc layer trained"
+C4,classification,STL10,42,ResNet18_finetune_8398858trainable_params,Adam,"layer4:1e-4, fc:1e-3",25.0,0.938,0.9515,,,,"Pretrained ResNet18, layer4 + fc unfrozen, different LRs"
+V1,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,,,,,,0.6631928868226169,0.9952369278188208,0.660417290780756,Base postprocessing: threshold=0.5
+V2,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,,,,,,0.7417861294597528,0.9866460910172096,0.7326240158116868,Alternative: threshold=0.7 + remove small components
