@@ -15,7 +15,7 @@
         "weight_decay": 0.0001
     },
     "epochs": 25,
-    "best_val_accuracy": 0.938,
+    "best_val_accuracy": 0.941,
     "seed": 42,
     "device": "cuda"
 }
