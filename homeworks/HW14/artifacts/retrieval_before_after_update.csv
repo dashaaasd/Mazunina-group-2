@@ -1,0 +1,4 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Как правильно приготовить рис для суши?,"doc_03, doc_05, doc_03","doc_13, doc_13, doc_13",True
+Что такое метод су-вид и при какой температуре готовить стейк medium rare?,"doc_03, doc_04, doc_04","doc_14, doc_14, doc_14",True
+В чем разница между кимчи и обычной квашеной капустой?,"doc_01, doc_07, doc_02","doc_15, doc_15, doc_13",True
