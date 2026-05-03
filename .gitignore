@@ -56,3 +56,10 @@ logs/
 *.bak
 *.old
 
+catboost_info/
+mlruns/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+artifacts/*.pkl
