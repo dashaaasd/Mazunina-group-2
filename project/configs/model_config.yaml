@@ -1,0 +1,27 @@
+# configs/model_config.yaml
+
+model:
+  name: "CatBoostRegressor"
+  iterations: 500
+  learning_rate: 0.05
+  depth: 6
+  loss_function: "RMSE"
+  eval_metric: "R2"
+  random_seed: 42
+  early_stopping_rounds: 50
+  verbose: 100
+
+data:
+  file: "tech_advertising_campaigns_dataset.csv"
+  split_ratio: [0.7, 0.15, 0.15]
+  target: "ROAS"
+  drop_cols:
+    - "campaign_id"
+    - "revenue"
+    - "profit"
+
+paths:
+  data_dir: "data"
+  artifacts_dir: "artifacts"
+  model_name: "best_model.pkl"
+  preprocessor_name: "preprocessor.pkl"
