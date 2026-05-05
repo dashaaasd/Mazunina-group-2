@@ -1,5 +1,3 @@
-# src/data/preprocessor.py
-
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -144,7 +142,7 @@ class CampaignDataProcessor:
         
         return df
     
-    def save_preprocessor(self, path: str = 'artifacts/preprocessor.pkl'):
+    def save_preprocessor(self, path: str = '../artifacts/models/preprocessor.pkl'):
         """Сохранение"""
         os.makedirs(os.path.dirname(path), exist_ok=True)
         joblib.dump({
@@ -156,7 +154,7 @@ class CampaignDataProcessor:
         }, path)
         print(f"Preprocessor saved to {path}")
     
-    def load_preprocessor(self, path: str = 'artifacts/preprocessor.pkl'):
+    def load_preprocessor(self, path: str = '../artifacts/models/preprocessor.pkl'):
         """Загрузка"""
         data = joblib.load(path)
         self.label_encoders = data['label_encoders']

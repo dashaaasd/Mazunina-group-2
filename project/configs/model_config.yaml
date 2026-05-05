@@ -10,6 +10,7 @@ model:
   random_seed: 42
   early_stopping_rounds: 50
   verbose: 100
+  train_dir: "artifacts/models/catboost_info"
 
 data:
   file: "tech_advertising_campaigns_dataset.csv"
@@ -22,6 +23,6 @@ data:
 
 paths:
   data_dir: "data"
-  artifacts_dir: "artifacts"
-  model_name: "best_model.pkl"
+  artifacts_dir: "artifacts/models"
+  model_name: "best_model_service.pkl"
   preprocessor_name: "preprocessor.pkl"
