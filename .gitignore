@@ -62,4 +62,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 venv/
-artifacts/*.pkl
+artifacts/models/*.pkl
+catboost_info/
+
