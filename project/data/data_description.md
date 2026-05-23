@@ -2,7 +2,7 @@
 
 ## Источник данных
 
-**Датасет:** Digital Advertising Campaign Performance Dataset
+**Датасет:** Digital Advertising Campaign Performance Dataset (Kaggle)
 
 **Ссылка:** [\[Kaggle\]](https://www.kaggle.com/datasets/juniornsa/digital-advertising-campaign-performance-dataset)
 
@@ -10,7 +10,7 @@
 
 **Файл:** `tech_advertising_campaigns_dataset.csv`
 
-## Описание датасета
+## Описание датасетф
 
 | Характеристика | Значение |
 |----------------|----------|
