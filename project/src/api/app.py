@@ -38,6 +38,7 @@ async def lifespan(app: FastAPI):
     try:
         predictor = ROASPredictor()
         logger.info("✅ Модель успешно загружена. Сервис готов.")
+        logger.info("Сервис доступен по адресу: http://localhost:8000/docs")
     except Exception as e:
         logger.error("❌ Ошибка загрузки модели: %s", e)
         raise

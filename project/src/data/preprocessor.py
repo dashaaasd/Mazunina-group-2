@@ -1,8 +1,12 @@
+import warnings
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 import os
+
+warnings.filterwarnings('ignore', category=FutureWarning)
+warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 
 class CampaignDataProcessor:
@@ -139,7 +143,7 @@ class CampaignDataProcessor:
         for col in all_feature_cols:
             if col in df.columns and df[col].isnull().any():
                 fill_value = self.feature_medians.get(col, 0.0)
-                df[col] = df[col].fillna(fill_value if pd.notna(fill_value) else 0.0).infer_objects(copy=False)
+                df[col] = df[col].fillna(fill_value if pd.notna(fill_value) else 0.0)
 
         # 6. Удаление строк с NaN в целевой
         if fit and 'ROAS' in df.columns:
