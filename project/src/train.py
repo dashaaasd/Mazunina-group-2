@@ -77,7 +77,7 @@ def train_model():
     
     # Сохранение артефактов
     artifacts_path = Path(__file__).parent.parent / config['paths']['artifacts_dir']
-    artifacts_path.mkdir(exist_ok=True)
+    artifacts_path.mkdir(parents=True, exist_ok=True)
     
     model_path = artifacts_path / config['paths']['model_name']
     preprocessor_path = artifacts_path / config['paths']['preprocessor_name']
