@@ -184,6 +184,7 @@ pytest tests -v
 
 **Запуск через Docker:**
 ```bash
+cd project
 docker build -t roas-service .
 docker run -p 8000:8000 roas-service
 ```

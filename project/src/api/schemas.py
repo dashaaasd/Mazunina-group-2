@@ -15,10 +15,26 @@ class CampaignRequest(BaseModel):
                 "campaign_objective": "Conversions",
                 "device_type": "Desktop",
                 "operating_system": "Windows",
-                "ad_placement": "feed",
+                "ad_placement": "Feed",
                 "day_of_week": "Monday",
                 "ad_spend": 5000.0,
-                "start_date": "2025-01-15"
+                "start_date": "2025-01-15",
+                "creative_format": "Video",
+                "ad_copy_length": "Medium",
+                "has_call_to_action": True,
+                "creative_emotion": "Trust",
+                "target_audience_age": "25-34",
+                "target_audience_gender": "All",
+                "income_bracket": "$50K-$100K",
+                "purchase_intent_score": "High",
+                "retargeting_flag": False,
+                "industry_vertical": "E-commerce",
+                "budget_tier": "Medium",
+                "quality_score": 7.5,
+                "bounce_rate": 35.0,
+                "clicks": 250,
+                "impressions": 15000,
+                "conversions": 18
             }]
         }
     }
@@ -75,10 +91,26 @@ class RecommendRequest(BaseModel):
                 "campaign_objective": "Conversions",
                 "device_type": "Desktop",
                 "operating_system": "Windows",
-                "ad_placement": "feed",
+                "ad_placement": "Feed",
                 "day_of_week": "Monday",
                 "ad_spend": 5000.0,
-                "start_date": "2025-01-15"
+                "start_date": "2025-01-15",
+                "creative_format": "Video",
+                "ad_copy_length": "Medium",
+                "has_call_to_action": True,
+                "creative_emotion": "Trust",
+                "target_audience_age": "25-34",
+                "target_audience_gender": "All",
+                "income_bracket": "$50K-$100K",
+                "purchase_intent_score": "High",
+                "retargeting_flag": False,
+                "industry_vertical": "E-commerce",
+                "budget_tier": "Medium",
+                "quality_score": 7.5,
+                "bounce_rate": 35.0,
+                "clicks": 250,
+                "impressions": 15000,
+                "conversions": 18
             }]
         }
     }
