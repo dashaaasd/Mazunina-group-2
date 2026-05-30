@@ -7,7 +7,7 @@
 
 ## 1. Паспорт проекта
 
-- **Название проекта:** Сервис предсказания эффективности рекламных кампаний
+- **Название проекта:** Предсказание эффективности рекламного канала для сегментов аудитории
 - **Автор:** Мазунина Дарья Андреевна
 - **Группа:** БСБО-51-24
 - **Контакт:** @dm_dmaz
@@ -91,7 +91,10 @@ pip install -r requirements.txt
 
 ```bash
 cd project
-source .venv/bin/activate
+# Windows:
+.venv\Scripts\activate
+# Linux / macOS:
+# source .venv/bin/activate
 python -m src.train
 ```
 
@@ -104,7 +107,10 @@ python -m src.train
 
 ```bash
 cd project
-source .venv/bin/activate
+# Windows:
+.venv\Scripts\activate
+# Linux / macOS:
+# source .venv/bin/activate
 uvicorn src.api.app:app --host 0.0.0.0 --port 8000
 ```
 
@@ -203,6 +209,7 @@ docker run -p 8000:8000 roas-service
 - Данные синтетические — перед продакшном необходима валидация на реальных кампаниях
 - Высокий MAPE (37.4%) на выбросах — кампании с экстремальным ROAS предсказываются хуже
 - Только 6 рекламных платформ — расширение требует дообучения
+- Нет мониторинга дрейфа данных в реальном времени
 
 **Что можно улучшить:**
 

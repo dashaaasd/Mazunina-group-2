@@ -201,13 +201,6 @@
 
 ```bash
 cd project
-source .venv/bin/activate
-uvicorn src.api.app:app --reload --port 8000
-```
-
-Или через Docker:
-```bash
-cd project
 docker build -t roas-service .
 docker run -p 8000:8000 roas-service
 ```
